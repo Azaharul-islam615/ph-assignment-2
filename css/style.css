@@ -217,13 +217,13 @@ nav li a:hover{
  }
   .deal-img img{
     filter: brightness(0.7);
+   
   }
- .deal-zabo {
-    width: 100%;
- }
+ 
  .deal-ana,.deal-bloom{
     margin-bottom: 25px;
     border-radius: 14px;
+   
  }
  .deal-zabo{
     grid-column: span 2;
@@ -370,9 +370,13 @@ nav li a:hover{
     margin: 143px 0 51px 0;
  }
     
+    .deal-bloom,.deal-ana{
+        width: 100%;
+    } 
     
-    
- 
+ .deal-zabo {
+    width: 100%;
+ }
    
 }
 
