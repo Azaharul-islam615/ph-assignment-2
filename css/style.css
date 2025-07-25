@@ -187,6 +187,82 @@ nav li a:hover{
     left: 340px;
 }
 /* latest deal******************** */
+
+
+
+.gridPart{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 28px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius:14px;
+        filter: brightness(0.6);
+}
+.item1,.item2{
+    height: 184px;
+}
+.item1{
+    background-image: url(../assets/deal-ana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item2{
+    background-image: url(../assets/deal-bloom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.item3{
+    background-image: url(../assets/deal-zabo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.combine h4{
+    font-family:var(--heading-font) ;
+    font-size: 20px;
+    font-weight: 700;
+    color:white ;
+    margin-bottom: 19px;
+}
+
+.combine a{
+    font-family:var(--text-font) ;
+    font-size: 16px;
+    font-weight: 600;
+    color:white ;
+}
+.item3 h4{
+   font-family:var(--heading-font) ;
+    font-size:40px ;
+    font-weight: 700;
+    color:white ;
+    margin-bottom: 5px;
+}
+.item3 a{
+    font-size: 28px ;
+    font-weight: 600;
+    font-family: var(--text-font);
+    color: white;
+    
+}
+
+.combine a{
+   
+}
+
+
+
+
 .latest-deal{
     margin-top: 133px;
     text-align: center;
@@ -256,6 +332,7 @@ nav li a:hover{
  }
  .parent-1{
     position: relative;
+    
  }
  .parent-2{
     position: relative;
@@ -497,5 +574,32 @@ padding: 19px 10px;
     text-align: center;
  }
    
+
+
+ .gridPart{
+    display: grid;
+    grid-template-columns: 1fr;
+ 
+}
+
+   .item3{
+    height: 184px;
+    margin-top: 25px;
+}
+.item3 h4{
+    font-family:var(--heading-font) ;
+    font-size: 20px;
+    font-weight: 700;
+    color:white ;
+    margin-bottom: 19px;
+}
+
+.item3 a{
+    font-family:var(--text-font) ;
+    font-size: 16px;
+    font-weight: 600;
+    color:white ;
+}
+
 }
 
