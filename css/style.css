@@ -88,6 +88,7 @@ nav li a:hover{
 }
 .cart img{
     width: 100%;
+    border-radius: 10px;
     
 }
 .carts{
@@ -95,6 +96,9 @@ nav li a:hover{
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
 }
+.cart{
+    box-shadow: 0 0 30 0 rgba(0, 0, 0, 0.272);
+} 
 
 .cart p{
     font-size: 22px;
@@ -118,6 +122,7 @@ nav li a:hover{
     font-size: 16px;
     font-weight: 600;
     font-family: var(--text-font);
+    border-radius: 10px;
     
 }
 
@@ -179,10 +184,104 @@ nav li a:hover{
     top: -122px;
     left: 340px;
 }
-/* .flower-store{
-       
-        width: 100%;
-} */
+/* latest deal******************** */
+.latest-deal{
+    margin-top: 133px;
+    text-align: center;
+}
+.deal-title{
+    margin-bottom: 120px;
+}
+.deal-title h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    margin-bottom: 16px;
+}
+.deal-title p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    max-width: 888px;
+    margin: 0 auto;
+}
+ .color{
+    color: var(--primary-color);
+ }
+ .deal-img
+ {
+    display: grid;
+    grid-template-columns: repeat(2,1fr 1fr);
+    gap: 28px;
+ }
+  .deal-img img{
+    filter: brightness(0.7);
+  }
+ .deal-zabo {
+    width: 100%;
+ }
+ .deal-ana,.deal-bloom{
+    margin-bottom: 25px;
+    border-radius: 14px;
+ }
+ .deal-zabo{
+    grid-column: span 2;
+ }
+ .parent-3 img{
+    border-radius: 28px;
+ }
+ .deal-1{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 50px;
+    left: 76px;
+    text-align: center;
+ }
+  .deal-1 h1{
+     margin-bottom: 10px;
+     font-size: 20px;
+     font-weight: 700;
+     font-family: var(--heading-font);
+  }
+ .deal-1 a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--text-font);
+   
+ }
+ .parent-1{
+    position: relative;
+ }
+ .parent-2{
+    position: relative;
+ }
+ .parent-3{
+    position: relative;
+ }
+ .deal-2{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    text-align: center;
+ }
+ .deal-2 a{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: var(--text-font);
+ }
+ .deal-2 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    margin-bottom: 10px;
+ }
+
+ /* Responsive************************************************* */
 @media screen and (max-width:576px) {
     nav li a{
         display: none;
@@ -231,6 +330,7 @@ nav li a:hover{
        justify-items: center;
       
     }
+   
     
     .flower-trust{
         display: none;
@@ -251,6 +351,24 @@ nav li a:hover{
         width: 200%;
         padding: 0 20px 0 15px;
     }
+    .deal-img{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 0 5px 0 10px;
+      
+    }
+    .deal-2 h1{
+    
+    font-size: 20px;
+    
+ }
+ .deal-2 a{
+    
+    font-size: 16px;
+ }
+ .latest-deal{
+    margin: 143px 0 51px 0;
+ }
     
     
     
